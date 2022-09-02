@@ -1,6 +1,14 @@
 #include <iostream>
 #include "funcs.h"
 
+/*
+  Author: Jianhua Deng
+  Course: CSCI-135
+  Instructor: Mike Zamansky
+  Assignment: Lab Task B, asked to print interval using method based on parameter L and U
+  Description: This is the main file that will execute method within funcs.cpp
+  */
+
 int main() 
 {	
 	

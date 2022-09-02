@@ -1,5 +1,14 @@
 #include <iostream>
 
+/*
+  Author: Jianhua Deng
+  Course: CSCI-135
+  Instructor: Mike Zamansky
+  Assignment: Lab Task C
+  Description: This program asks user for index and values, then changes value in the array based on their input of index and values.
+  If user's index is out of bound, the program stops. However, it wouldn't stop otherwise.
+ */
+
 int main() 
 {
 	//declaring variables
@@ -18,8 +27,7 @@ int main()
 		//Print out contents of the array
 		for (int i = 0; i < SIZE; i++) {
 			std:: cout << myData[i] << " ";
-			if (i == SIZE - 1) //if it's at the end of array, add a new line
-			{
+			if (i == SIZE - 1){ //if it's at the end of array, add a new line
 				std::cout << std::endl;
 			}//end if condition
 		}//end for loop

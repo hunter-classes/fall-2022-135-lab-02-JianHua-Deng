@@ -1,4 +1,11 @@
 #include <iostream>
+/*
+  Author: Jianhua Deng
+  Course: CSCI-135
+  Instructor: Mike Zamansky
+  Assignment: Lab Task D
+  Description: This program adds number in the way of fibonacci
+ */
 
 int main() {
 	//declaring variables
