@@ -27,11 +27,12 @@ int main()
 		//Getting index from user
 		std::cout << "Input index: ";
 		std::cin >> i;
-		//Getting value from user
-		std::cout << "Input value: ";
-		std::cin >> v; 
 
 		if (i < SIZE) {
+			//Getting value from user
+			std::cout << "Input value: ";
+			std::cin >> v;
+			//plugging values into the array
 			myData[i] = v;
 		}//end if condition
 
