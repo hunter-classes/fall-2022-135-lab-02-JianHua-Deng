@@ -14,11 +14,13 @@ int main()
 {
     //declaring variable
     int input;
+    bool resume = true; //Not sure if the program should run only once or forever, so I'll just assume it run only once
 
     //Starts of while loop
-    while(std::cin >> input){
+    while((resume == true) && (std::cin >> input)){
         if(input > 0 && input < 100){
             std::cout << "Number squared is: " << pow(input,2) << std::endl; //Gives the result of its input squared
+            resume = false;
         }else{
             std::cout << "Please re_enter:";
         }//end else
